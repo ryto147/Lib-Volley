@@ -145,7 +145,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         // method untuk menghapus data barang
         private void hapusDataBarang(int position, @NonNull ModelBarang modelBarang) {
-            String url = "https://ryto-147.000webhostapp.com/Ryto/Hapus_barang?id=" + modelBarang.getId();
+            String url = "https://subkode.000webhostapp.com/volley_db/hapus_barang?id=" + modelBarang.getId();
             // buat StringRequest volley dan jangan lupa requestnya GET "Request.Method.GET"
             StringRequest request = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                 @Override

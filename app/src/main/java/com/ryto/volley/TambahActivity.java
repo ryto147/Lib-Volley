@@ -77,7 +77,7 @@ public class TambahActivity extends AppCompatActivity {
         String konv_kode = URLEncoder.encode(kode, "utf-8");
         String konv_nama = URLEncoder.encode(nama, "utf-8");
 
-        String url = "https://ryto-147.000webhostapp.com/Ryto/Tambah_Barang?kode=" + konv_kode + "&nama=" + konv_nama + "&harga=" + harga;
+        String url = "https://subkode.000webhostapp.com/volley_db/tambah_barang?kode=" + konv_kode + "&nama=" + konv_nama + "&harga=" + harga;
         // buat StringRequest volley dan jangan lupa requestnya GET "Request.Method.GET"
         StringRequest request = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
