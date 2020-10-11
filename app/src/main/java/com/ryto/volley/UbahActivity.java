@@ -30,8 +30,6 @@ public class UbahActivity extends AppCompatActivity {
 
     // implementasi
     private EditText kode_barang, nama_barang, harga_barang;
-    private Button btn_simpan;
-
     // untuk menerima Data dari MainActivity
     private String ed_kode, ed_nama;
     private int ed_id, ed_harga;
@@ -46,7 +44,7 @@ public class UbahActivity extends AppCompatActivity {
         kode_barang = findViewById(R.id.ed_kode_barang);
         nama_barang = findViewById(R.id.ed_nama_barang);
         harga_barang = findViewById(R.id.ed_harga_barang);
-        btn_simpan = findViewById(R.id.simpan_tambah_ubah);
+        Button btn_simpan = findViewById(R.id.simpan_tambah_ubah);
 
         // mengubah text pada buttom
         btn_simpan.setText("Update");
