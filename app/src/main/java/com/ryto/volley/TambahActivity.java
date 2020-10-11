@@ -92,7 +92,7 @@ public class TambahActivity extends AppCompatActivity {
                 if (status_kode == 1) {
                     Toast.makeText(TambahActivity.this, status_pesan, Toast.LENGTH_SHORT).show();
                     MainActivity.mInstance.MuatData(); // memanggil MainActivity untuk memproses method MemuatData()
-                    finish(); // keluar
+                    finish(); // keluar/selesai
                 } else if (status_kode == 2) {
                     Toast.makeText(TambahActivity.this, status_pesan, Toast.LENGTH_SHORT).show();
                 } else if (status_kode == 3) {
