@@ -88,7 +88,7 @@ public class UbahActivity extends AppCompatActivity {
     }
 
     private void updateData(int id, String kode, String nama, String harga) {
-        String url = "https://ryto-147.000webhostapp.com/Ryto/Update_Barang";
+        String url = "https://subkode.000webhostapp.com/volley_db/update_barang";
         // buat StringRequest volley dan jangan lupa requestnya POST "Request.Method.POST"
         StringRequest request = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override

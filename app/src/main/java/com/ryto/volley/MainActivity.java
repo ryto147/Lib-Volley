@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
     // method MuadData kita set ke public
     public void MuatData() {
-        String url = "https://ryto-147.000webhostapp.com/Ryto/Lihat_Barang";
+        String url = "https://subkode.000webhostapp.com/volley_db/lihat_barang";
         // buat StringRequest volley dan jangan lupa requestnya GET "Request.Method.GET"
         StringRequest request = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
